@@ -1,0 +1,32 @@
+
+.contentWrapper{
+    background-color: white;
+    border-radius: 7px;
+    z-index: 10;
+    margin: 0px 4px;
+    padding: 10px 10px;
+}
+
+.intro{
+    text-align: left;
+}
+.intro button{
+    margin: 10px 10px;
+}
+.intro h1{
+    text-align: left;
+    padding: 10px 15px;
+
+}
+
+.professionalInfo{
+    text-align: left;
+    margin: 10px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.intro div{
+    padding: 10px 15px;
+    text-align: left;
+  
+}

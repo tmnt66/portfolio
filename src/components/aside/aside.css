@@ -1,0 +1,28 @@
+.asideWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profileimg img{
+    height: 10%;
+    width: 32%;
+    border-radius: 104px;
+    margin: 14px 0px;
+}
+
+.btn{
+    background-color: #11e579;
+    margin: 20px 0px;
+    color: white;
+}
+.status{
+    background-color: #dbfff3;
+    border-radius: 58px;
+    padding: 9px 34px;
+}
+
+.personalInfo{
+    margin: 24px 0px;
+}

@@ -1,0 +1,45 @@
+.navbarWrapper{
+    width: 98%;
+    border-radius: 7px;
+    height: 48px;
+    display: flex;
+}
+#menu{
+    position: absolute;
+    right: 34px;
+    top: 24px;
+    display: none;
+}
+.lines {
+    background-color: black;
+    height: 2px;
+    margin: 2px;
+
+    width: 13px;
+}
+
+.navlist{
+text-decoration: none;
+color:black;
+list-style: none;
+width: 92%;
+border-radius: 4px;
+justify-content: end;
+align-items: center;
+margin: 0px auto;
+display: flex;
+}
+
+.navitems{
+    padding: 10px 26px;
+}
+
+
+@media only screen and (max-width:1000px){
+    #menu{
+        display: block;
+    }
+    .navlist{
+        display: none;
+    }
+}

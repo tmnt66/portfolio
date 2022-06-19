@@ -1,0 +1,23 @@
+.homepage{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+    margin: 0px 0%;
+    z-index: -110;
+    justify-content: center;
+}
+
+.content{
+   
+}
+
+
+
+.aside{
+    height: 100vh;
+    background-color:transparent;
+    border-radius: 7px;
+    z-index: 10;
+    margin: 23.56% 5px;
+
+}
