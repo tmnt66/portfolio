@@ -7,39 +7,39 @@ const Content = () => {
     let data = {
 
         forEdu: [{
-           
+
             title: 'Bachelor of Technology',
-            class:'Btech',
-            data2:{
-                Degree:'Bachelor of Technology',
-                Stream:'Chemical Engineering',
-                College:'Motilal Nehru National Institute of Technology Allahabad',
-                Year:'2017 - 2021',
-                Percentage:'88.4'
+            class: 'Btech',
+            data2: {
+                Degree: 'Bachelor of Technology',
+                Stream: 'Chemical Engineering',
+                College: 'Motilal Nehru National Institute of Technology Allahabad',
+                Year: '2017 - 2021',
+                Percentage: '88.4'
             }
         },
         {
             id: 2,
             class: 'Inter',
-            title:'Intermediate',
-            data2:{
-                Degree:'Intermediate',
-                Stream:'PCM',
-                College:'Padmawati Academy Bareilly',
-                Year:'2014 - 2016',
-                Percentage:'79.2'
+            title: 'Intermediate',
+            data2: {
+                Degree: 'Intermediate',
+                Stream: 'PCM',
+                College: 'Padmawati Academy Bareilly',
+                Year: '2014 - 2016',
+                Percentage: '79.2'
             }
         },
         {
             id: 3,
             class: 'Tenth',
-            title:'High School',
-            data2:{
-                Degree:'High School',
-                Stream:'Science',
-                College:'St. Thomas High School , Nawabganj',
-                Year:'2012 - 2016',
-                Percentage:'89.3'
+            title: 'High School',
+            data2: {
+                Degree: 'High School',
+                Stream: 'Science',
+                College: 'St. Thomas High School , Nawabganj',
+                Year: '2012 - 2016',
+                Percentage: '89.3'
             }
         }],
         forInterest: [{
@@ -69,14 +69,14 @@ const Content = () => {
             </div>
             <div className="professionalInfo">
                 <div className="education">
-                 <h1>Education</h1>
-                <Education edu={data.forEdu} />
+                    <h1>Education</h1>
+                    <Education edu={data.forEdu} />
                 </div>
                 <div className="education">
-                 <h1>Interests</h1>
-                
+                    <h1>Interests</h1>
+
                 </div>
-                
+
 
             </div>
         </div>

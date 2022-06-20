@@ -1,0 +1,17 @@
+
+.projectcard{
+    position: relative;
+}
+.projectcard img{
+    width: 100%;
+    opacity: 0.6;
+}
+.projectcard h4{
+    text-align: left;
+    position: absolute;
+    display: flex;
+    top: 31%;
+    right: 28%;
+    font-weight: 900;
+    font-size: 50px;
+}

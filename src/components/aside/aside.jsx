@@ -19,7 +19,6 @@ const Aside = () => {
                 <h4>Personal Information</h4>
                 <div>
                     BIRTHDAY :27 March 1998
-
                     <br/>
                     PHONE : +91 8279951110
                     <br/>
