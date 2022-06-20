@@ -48,7 +48,7 @@ const Projects = (props) => {
             {
                 data.map((element) => (
 
-                        <ProjectCards data={element} />
+                        <ProjectCards key ={element.id} data={element} />
                 ))}
                     </div>
 
