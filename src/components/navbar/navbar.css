@@ -10,6 +10,7 @@
     top: 16px;
     display: block;
     padding: 10px;
+    border:none;
     border-radius: 27px;
     background-color: white;
 }
@@ -23,7 +24,9 @@
 
     width: 13px;
 }
-
+.navhide{
+    width: 0px;
+}
 .navlist{
 text-decoration: none;
 color:black;

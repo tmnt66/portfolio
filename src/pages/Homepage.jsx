@@ -5,6 +5,7 @@ import './homepage.css'
 import Navbar from "../components/navbar/navbar"
 import { Route } from "react-router"
 import Projects from './projects/projects'
+import Message from "./message/message"
 const Homepage = () => {
     return (
         <div className="homepage">
@@ -21,6 +22,7 @@ const Homepage = () => {
                 {/* </div> */}
               <Route path="/" element = { <Content />}/>
               <Route path="/projects" element={<Projects/>}/>
+              <Route path="/contact" element={<Message/>}/>
 </Routes>
             </div>
         </div>

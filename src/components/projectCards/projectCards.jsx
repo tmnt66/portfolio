@@ -1,14 +1,18 @@
 import './projectCards.css'
 
 
-const ProjectCards = (props)=>{
-    return(
+const ProjectCards = (props) => {
+    return (
         <div className="projectcard">
-        <a href={props.data.link}>
-
-            <img src={props.data.imgUrl} alt={props.data.title} />
-            <h4>{props.data.title}</h4>
-        </a>
+            <a href={props.data.link}>
+                <p className="resource">{props.data.resource}</p>
+                <img src={props.data.imgUrl} alt={props.data.title} />
+                <h4>{props.data.title}</h4>
+                <div className="overlay">
+                    <p>{props.data.title}</p>
+                    <div className="text">{props.data.description}</div>
+                </div>
+            </a>
         </div>
     )
 }
