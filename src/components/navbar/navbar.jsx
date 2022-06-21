@@ -33,10 +33,10 @@ const Navbar = () => {
                     </div>
                 </button>
                 <ul className="navlist">
-                    <Link to='/' >  <li className="navitems">Home</li></Link>
+                    <Link to='/' >  <li className="navitems">Resume</li></Link>
                     <li className="navitems">About Me</li>
                     <Link to='/projects' > <li className="navitems">Projects</li></Link>
-                    <li className="navitems">Blog</li>
+                    <li className="navitems">Contact me</li>
                     <li className="navitems">Hobbies</li>
                 </ul>
             </div>
