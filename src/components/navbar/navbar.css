@@ -47,11 +47,11 @@ display: flex;
     color: black;
 }
 
-@media only screen and (max-width:1000px){
+/* @media only screen and (max-width:1000px){
     #menu{
         display: block;
     }
     .navlist{
         display: none;
     }
-}
+} */
