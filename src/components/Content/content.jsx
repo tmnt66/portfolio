@@ -38,7 +38,7 @@ const Content = () => {
                 Degree: 'High School',
                 Stream: 'Science',
                 College: 'St. Thomas High School , Nawabganj',
-                Year: '2012 - 2016',
+                Year: '2012 - 2014',
                 Percentage: '89.3'
             }
         }],
@@ -57,18 +57,15 @@ const Content = () => {
 
 
     }
-
-
-
     return (
         <div className="contentWrapper font">
             <div className="intro">
                 <h1 className='font'>Hi, I am Branzil</h1>
                 <div> I am a Coding enthusiast , who loves Web Development and competitive coding</div>
-                <Button1 title='HTML' />
-                <Button1 title='CSS' />
-                <Button1 title='JAVASCRIPT' />
-                <Button1 title='REACT JS' />
+                <Button1 title='HTML'/>
+                <Button1 title='CSS'/>
+                <Button1 title='JAVASCRIPT'/>
+                <Button1 title='REACT JS'/>
             </div>
             <div className="professionalInfo">
                 <div className="education">
@@ -87,18 +84,13 @@ const Content = () => {
                         <h5>Tic-Tac-Toe </h5>
                         <p>Resources Used : HTML/CSS/Javascript</p>
                         <p>The Game includes two player mode with Winner Declaration and Reset button functionality </p>
-            
                         <h5>Dinosaur Game </h5>
                         <p>Resources Used : HTML/CSS/Javascript</p>
                         <p>This is a T-rex Chrome type game, which includes 2D player movement in Horizontal direction and Jumping.Game also includes score point table and difficulty increases as game proceeds.</p>
                     </div>
-                     
                 </div>
-
-
             </div>
         </div>
-
     )
 }
 

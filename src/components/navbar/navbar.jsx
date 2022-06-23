@@ -2,12 +2,9 @@
 import '../../general.css'
 import './navbar.css'
 import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     let click = 0;
-
-
-
-
     const togglemenu = () => {
         let review = document.getElementsByClassName('navlist');
         if (click === 0) {
@@ -18,8 +15,6 @@ const Navbar = () => {
             click = 0;
             review.style.display = 'none';
         }
-
-
     }
     return (
         <div className='navbar'>

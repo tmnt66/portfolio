@@ -10,9 +10,15 @@
 .intro{
     text-align: left;
 }
+
 .intro button{
     margin: 10px 10px;
 }
+
+.intro button:hover{
+    margin: 10px 10px;
+}
+
 .intro h1{
     text-align: left;
     padding: 10px 15px;

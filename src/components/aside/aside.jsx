@@ -13,7 +13,6 @@ const Aside = () => {
                 Web Development/Coding
             </div>
             <div className="socialLinks">
-
             </div>
             <div className="personalInfo">
                 <h4>Personal Information</h4>
