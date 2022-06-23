@@ -73,8 +73,23 @@ const Content = () => {
                     <Education edu={data.forEdu} />
                 </div>
                 <div className="education">
-                    <h1>Interests</h1>
-
+                    <h1>Projects</h1>
+                    <div className="project1">
+                        <h3>1.Turgot USA clone </h3>
+                        <p>Resources Used : HTML/CSS/Javascript/ReactJs</p>
+                        <p>This is a simple website template , with working navbar links using React-router </p>
+                    </div>
+                    <div className="project2">
+                        <h3>2.MINI Projects </h3>
+                        <h5>Tic-Tac-Toe </h5>
+                        <p>Resources Used : HTML/CSS/Javascript</p>
+                        <p>The Game includes two player mode with Winner Declaration and Reset button functionality </p>
+            
+                        <h5>Dinosaur Game </h5>
+                        <p>Resources Used : HTML/CSS/Javascript</p>
+                        <p>This is a T-rex Chrome type game, which includes 2D player movement in Horizontal direction and Jumping.Game also includes score point table and difficulty increases as game proceeds.</p>
+                    </div>
+                     
                 </div>
 
 

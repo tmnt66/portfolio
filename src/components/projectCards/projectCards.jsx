@@ -9,7 +9,7 @@ const ProjectCards = (props) => {
                 <img src={props.data.imgUrl} alt={props.data.title} />
                 <h4>{props.data.title}</h4>
                 <div className="overlay">
-                    <p>{props.data.title}</p>
+                    <h3>{props.data.title}</h3>
                     <div className="text">{props.data.description}</div>
                 </div>
             </a>

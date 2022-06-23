@@ -6,7 +6,7 @@ const Aside = () => {
     return (
         <div className="asideWrapper font">
             <div className="profileimg">
-               <img src="https://img.favpng.com/7/4/23/nobita-nobi-doraemon-shizuka-minamoto-animated-film-png-favpng-dAzuMi92PH5ZtF3JE5ecRM4MK.jpg" alt="" />
+               <img src="./20179009_img.jpg" alt="profile_photo" />
             </div>
             <h4>Branzil .</h4>
             <div className="status">
