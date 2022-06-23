@@ -65,7 +65,10 @@ const Content = () => {
             <div className="intro">
                 <h1 className='font'>Hi, I am Branzil</h1>
                 <div> I am a Coding enthusiast , who loves Web Development and competitive coding</div>
-                <Button1 title='Message Me' />
+                <Button1 title='HTML' />
+                <Button1 title='CSS' />
+                <Button1 title='JAVASCRIPT' />
+                <Button1 title='REACT JS' />
             </div>
             <div className="professionalInfo">
                 <div className="education">

@@ -30,3 +30,10 @@
     text-align: left;
   
 }
+
+.education h1 , h5{
+font-weight: bolder;
+}
+.education h3{
+font-weight: bolder;
+}

@@ -4,6 +4,9 @@
     align-items: center;
     flex-direction: column;
 }
+.asideWrapper h4{
+    font-weight: bolder;
+}
 
 .profileimg img{
     /* background-image: url('../../images/20179009_img.jpg'); */
