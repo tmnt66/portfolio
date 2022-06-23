@@ -9,3 +9,16 @@ background-color: white;
     font-family: 'Outfit', sans-serif;
     font-weight: bolder;
 }
+/* 
+.btn{
+    border: none;
+    width: 57%;
+    height: 36px;
+    border-radius: 10px;
+} */
+
+@media only screen and (max-width:1000px){
+    *{
+        flex-direction: column;
+    }
+}
