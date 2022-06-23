@@ -2,7 +2,8 @@
 
 const Button1 = (props)=>{
     return(
-        <button className="btn font">{props.title}</button>
+            <button className="btn font">{props.title}</button>
+       
     )
 }
 
