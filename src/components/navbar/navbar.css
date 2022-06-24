@@ -47,6 +47,12 @@ right: 55px;
 }
 .navitems{
     padding: 10px 26px;
+    border-radius: 28px;
+    background-color: #dbfff3;
+    margin: auto 10px;
+}
+.navitems:hover{
+    background-color: #a7e9db;
 }
 .navlist a{
     text-decoration: none;
