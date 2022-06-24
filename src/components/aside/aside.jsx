@@ -1,7 +1,7 @@
 import Button1 from '../button1/button'
 import './aside.css'
 import '../../general.css'
-import { Link } from 'react-router-dom';
+
 
 const Aside = () => {
     return (
@@ -26,7 +26,7 @@ const Aside = () => {
                     <br/>
                     Location : Bharuch , Gujrat
                 </div>
-               <a href='https://drive.google.com/file/d/1SBfnCqGqFPx3D3iz_8UWEtM94j3314BC/view?usp=sharing' target="_blank">
+               <a href='https://drive.google.com/file/d/1SBfnCqGqFPx3D3iz_8UWEtM94j3314BC/view?usp=sharing' rel="noreferrer" target="_blank">
                 <Button1 title='Download CV'/> 
                 </a> 
             </div>

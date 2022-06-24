@@ -10,7 +10,7 @@ const Projects = (props) => {
         {
             id: 1,
             title: 'Dinogame',
-            imgUrl: './dinogamethumb.jpg',
+            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh5CERjJrSmE0u_GLTRNtORoWxBm7LfBLLA&usqp=CAU',
             link :'https://papaya-bienenstitch-c1977c.netlify.app/',
             description:"This is a Game like Chrome T Rex game.Player can move left right and jump. Resources used - HTML/CSS/JS"
         },

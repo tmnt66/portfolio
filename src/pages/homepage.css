@@ -21,3 +21,18 @@
     margin: 23.56% 5px;
 
 }
+
+
+@media only screen and (max-width:1100px){
+    .homepage{
+        grid-template-columns: 1fr;
+    }
+    
+    .aside{
+        height: auto;
+        background-color: transparent;
+        border-radius: 7px;
+        z-index: 10;
+        margin: 0px;
+     }
+}

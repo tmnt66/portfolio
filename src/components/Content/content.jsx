@@ -1,5 +1,5 @@
-import './content.css'
 import '../../general.css'
+import './content.css'
 import Button1 from '../button1/button'
 import Education from '../education/education'
 const Content = () => {

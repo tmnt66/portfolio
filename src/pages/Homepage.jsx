@@ -6,6 +6,7 @@ import Navbar from "../components/navbar/navbar"
 import { Route } from "react-router"
 import Projects from './projects/projects'
 import Message from "./message/message"
+import '../general.css'
 const Homepage = () => {
     return (
         <div className="homepage">

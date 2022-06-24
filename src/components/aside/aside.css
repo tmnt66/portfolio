@@ -24,9 +24,15 @@
 .status{
     background-color: #dbfff3;
     border-radius: 58px;
-    padding: 9px 34px;
-}
+    padding: 9px 10%;
+} 
 
 .personalInfo{
     margin: 24px 0px;
+}
+
+
+
+@media only screen and (max-width:1100px){
+  
 }
