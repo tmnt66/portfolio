@@ -83,6 +83,7 @@ right: 55px;
         justify-content: center;
         align-items: center;
         position: inherit;
+        padding-left:0px ;
     }
 #menu{
     display: none;
