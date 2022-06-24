@@ -6,14 +6,16 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     let click = 0;
     const togglemenu = () => {
-        let review = document.getElementsByClassName('navlist');
-        if (click === 0) {
-            click = 1;
-            review.style.display = 'flex'
+        console.log('clicked')
+        let review = document.querySelector('.navlist');
+        if (click === 1) {
+            click = 0;
+            review.style.right = '55px';
+            // review.style.cl
         }
         else {
-            click = 0;
-            review.style.display = 'none';
+            click = 1;
+            review.style.right = '-372px';
         }
     }
     return (
@@ -27,7 +29,7 @@ const Navbar = () => {
                         <div className="lines"></div>
                     </div>
                 </button>
-                <ul className="navlist navhide">
+                <ul className="navlist">
                     <Link to='/' >  <li className="navitems">Resume</li></Link>
                     {/* <li className="navitems">About Me</li> */}
                     <Link to='/projects' > <li className="navitems">Projects</li></Link>
