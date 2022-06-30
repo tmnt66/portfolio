@@ -54,7 +54,7 @@ const Projects = (props) => {
             title: 'Crypo-App',
             imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh5CERjJrSmE0u_GLTRNtORoWxBm7LfBLLA&usqp=CAU',
             link:'https://branzil-cryptoapp.netlify.app/',
-            description:'A E-commerce Clothing Website which includes Cart , add Items, signup and signout etc. Resources used - HTML/CSS/ReactJs'
+            description:'This a working Cryptocurrency website which shows various Cryptocurrencies , their data and News related to these Cryptocurrencies '
         }
     ]
     return (
