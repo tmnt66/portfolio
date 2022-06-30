@@ -78,6 +78,9 @@ const Content = () => {
                         <h3>1.Turgot USA clone </h3>
                         <p>Resources Used : HTML/CSS/Javascript/ReactJs</p>
                         <p>This is a simple website template , with working navbar links using React-router </p>
+                        <h3>2. CryptoApp </h3>
+                        <p>Resources Used : HTML/CSS/Javascript/ReactJs/Redux/RapidAPI</p>
+                        <p>This a working Cryptocurrency website which shows various Cryptocurrencies , their data and News related to these Cryptocurrencies </p>
                     </div>
                     <div className="project2">
                         <h3>2.MINI Projects </h3>
