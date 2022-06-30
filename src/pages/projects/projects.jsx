@@ -46,6 +46,14 @@ const Projects = (props) => {
             id: 6,
             title: 'Clothing website',
             imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh5CERjJrSmE0u_GLTRNtORoWxBm7LfBLLA&usqp=CAU',
+            link:'https://clothingproject.netlify.app/',
+            description:'A E-commerce Clothing Website which includes Cart , add Items, signup and signout etc. Resources used - HTML/CSS/ReactJs'
+        },
+        {
+            id: 7,
+            title: 'Crypo-App',
+            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh5CERjJrSmE0u_GLTRNtORoWxBm7LfBLLA&usqp=CAU',
+            link:'https://branzil-cryptoapp.netlify.app/',
             description:'A E-commerce Clothing Website which includes Cart , add Items, signup and signout etc. Resources used - HTML/CSS/ReactJs'
         }
     ]

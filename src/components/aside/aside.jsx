@@ -1,13 +1,14 @@
 import Button1 from '../button1/button'
 import './aside.css'
 import '../../general.css'
+import image from './20179009_img.jpg' 
 
 
 const Aside = () => {
     return (
         <div className="asideWrapper font">
             <div className="profileimg">
-               <img src="./20179009_img.jpg" alt="profile_photo" />
+               <img src="20179009_img.jpg" alt="profile_photo" />
             </div>
             <h4>Branzil .</h4>
             <div className="status">
