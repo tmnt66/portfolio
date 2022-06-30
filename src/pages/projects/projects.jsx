@@ -53,7 +53,7 @@ const Projects = (props) => {
             id: 7,
             title: 'Crypo-App',
             imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh5CERjJrSmE0u_GLTRNtORoWxBm7LfBLLA&usqp=CAU',
-            link:'https://branzil-cryptoapp.netlify.app/',
+            link:'https://branzils-cryptoapp.netlify.app/',
             description:'This a working Cryptocurrency website which shows various Cryptocurrencies , their data and News related to these Cryptocurrencies '
         }
     ]
