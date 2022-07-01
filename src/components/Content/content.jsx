@@ -66,6 +66,7 @@ const Content = () => {
                 <Button1 title='CSS'/>
                 <Button1 title='JAVASCRIPT'/>
                 <Button1 title='REACT JS'/>
+                <Button1 title='REDUX'/>
             </div>
             <div className="professionalInfo">
                 <div className="education">
