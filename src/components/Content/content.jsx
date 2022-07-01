@@ -84,7 +84,7 @@ const Content = () => {
                         <p>This a working Cryptocurrency website which shows various Cryptocurrencies , their data and News related to these Cryptocurrencies </p>
                     </div>
                     <div className="project2">
-                        <h3>2.MINI Projects </h3>
+                        <h3>3.MINI Projects </h3>
                         <h5>Tic-Tac-Toe </h5>
                         <p>Resources Used : HTML/CSS/Javascript</p>
                         <p>The Game includes two player mode with Winner Declaration and Reset button functionality </p>
