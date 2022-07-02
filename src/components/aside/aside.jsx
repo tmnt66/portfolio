@@ -25,7 +25,7 @@ const Aside = () => {
                     <br/>
                     MAIL : branzil1729@gmail.com
                     <br/>
-                    Location : Bharuch , Gujrat
+                    Location : Bareilly , U.P.
                 </div>
                <a href='https://drive.google.com/file/d/1ZnZeYrbEnaC02BrP_cOKOIe87TT32ROn/view?usp=sharing' rel="noreferrer" target="_blank">
                 <Button1 title='Download CV'/> 
