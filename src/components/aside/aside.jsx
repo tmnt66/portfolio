@@ -27,7 +27,7 @@ const Aside = () => {
                     <br/>
                     Location : Bareilly , U.P.
                 </div>
-               <a href='https://drive.google.com/file/d/1ZnZeYrbEnaC02BrP_cOKOIe87TT32ROn/view?usp=sharing' rel="noreferrer" target="_blank">
+               <a href='https://drive.google.com/file/d/1xBAKn8yfljOpRHaDqKmEhursWphJUNHG/view?usp=sharing' rel="noreferrer" target="_blank">
                 <Button1 title='Download CV'/> 
                 </a> 
             </div>
