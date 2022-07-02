@@ -8,7 +8,7 @@ const Aside = () => {
     return (
         <div className="asideWrapper font">
             <div className="profileimg">
-               <img src="./20179009_img.jpg" alt="profile_photo" />
+               <img src="image" alt="profile_photo" />
             </div>
             <h4>Branzil .</h4>
             <div className="status">
