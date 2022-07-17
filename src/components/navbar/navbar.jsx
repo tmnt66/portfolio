@@ -30,7 +30,8 @@ const Navbar = () => {
                     </div>
                 </button>
                 <ul className="navlist">
-                    <Link to='/' >  <li className="navitems">Resume</li></Link>
+                    <Link to='/' >  <li className="navitems">Home</li></Link>
+                    <Link to='/resume' >  <li className="navitems">Resume</li></Link>
                     {/* <li className="navitems">About Me</li> */}
                     <Link to='/projects' > <li className="navitems">Projects</li></Link>
                     <Link to='/contact' > <li className="navitems">Contact me</li></Link> 

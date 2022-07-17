@@ -18,11 +18,17 @@ const Homepage = () => {
                 {/* <div className="navbar "> */}
                     <Navbar />
                 {/* <Content /> */}
+               
                 
 <Routes>
                 {/* </div> */}
-              <Route path="/" element = { <Content />}/>
+              <Route path="/" element = { <>
+              <Content />
+             <Projects/>
+              </>
+             }/>
               <Route path="/projects" element={<Projects/>}/>
+              <Route path="/resume" element={<Content/>}/>
               <Route path="/contact" element={<Message/>}/>
 </Routes>
             </div>
