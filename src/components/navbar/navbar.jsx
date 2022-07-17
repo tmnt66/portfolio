@@ -4,20 +4,20 @@ import './navbar.css'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    let click = 0;
-    const togglemenu = () => {
-        console.log('clicked')
-        let review = document.querySelector('.navlist');
-        if (click === 1) {
-            click = 0;
-            review.style.right = '55px';
-            // review.style.cl
-        }
-        else {
-            click = 1;
-            review.style.right = '-372px';
-        }
-    }
+    // let click = 0;
+    // const togglemenu = () => {
+    //     console.log('clicked')
+    //     let review = document.querySelector('.navlist');
+    //     if (click === 1) {
+    //         click = 0;
+    //         review.style.right = '55px';
+    //         // review.style.cl
+    //     }
+    //     else {
+    //         click = 1;
+    //         review.style.right = '-372px';
+    //     }
+    // }
     return (
         <div className='navbar'>
 
