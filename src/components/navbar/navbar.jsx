@@ -22,13 +22,13 @@ const Navbar = () => {
         <div className='navbar'>
 
             <div className="navbarWrapper  font">
-                <button id="menu"  onClick={togglemenu} >
+                {/* <button id="menu"  onClick={togglemenu} >
                     <div className="menu">
                         <div className="lines"></div>
                         <div className="lines"></div>
                         <div className="lines"></div>
                     </div>
-                </button>
+                </button> */}
                 <ul className="navlist">
                     <Link to='/' >  <li className="navitems">Home</li></Link>
                     <Link to='/resume' >  <li className="navitems">Resume</li></Link>
