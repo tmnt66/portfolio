@@ -76,12 +76,12 @@ const Content = () => {
                 <div className="education">
                     <h1>Projects</h1>
                     <div className="project1">
-                        <h3>1.Turgot USA clone </h3>
-                        <p>Resources Used : HTML/CSS/Javascript/ReactJs</p>
-                        <p>This is a simple website template , with working navbar links using React-router </p>
-                        <h3>2. CryptoApp </h3>
+                        <h3>1. CryptoApp </h3>
                         <p>Resources Used : HTML/CSS/Javascript/ReactJs/Redux/RapidAPI</p>
                         <p>This a working Cryptocurrency website which shows various Cryptocurrencies , their data and News related to these Cryptocurrencies </p>
+                        <h3>2.Turgot USA clone </h3>
+                        <p>Resources Used : HTML/CSS/Javascript/ReactJs</p>
+                        <p>This is a simple website template , with working navbar links using React-router </p>
                     </div>
                     <div className="project2">
                         <h3>3.MINI Projects </h3>
@@ -91,6 +91,9 @@ const Content = () => {
                         <h5>Dinosaur Game </h5>
                         <p>Resources Used : HTML/CSS/Javascript</p>
                         <p>This is a T-rex Chrome type game, which includes 2D player movement in Horizontal direction and Jumping.Game also includes score point table and difficulty increases as game proceeds.</p>
+                        <h5>Yoshi's Treasure Hunt</h5>
+                        <p>Resources Used : HTML/CSS/Javascript</p>
+                        <p>Yoshi Dinosur Collects Coins Across the Board</p>
                     </div>
                 </div>
             </div>
