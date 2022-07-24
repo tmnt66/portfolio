@@ -72,7 +72,7 @@ const Projects = (props) => {
         {
             id: 9,
             title: 'Sticky Notes',
-            imgUrl: cc,
+            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh5CERjJrSmE0u_GLTRNtORoWxBm7LfBLLA&usqp=CAU',
             link:'https://bran-notes.netlify.app/',
             description:'A Simple Notes taking program where we can add , delete and refresh Notes. Resources used - HTML/CSS/JS'
         },
