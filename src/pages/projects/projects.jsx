@@ -10,6 +10,7 @@ import tttImg from './images/ttt.png'
 import raceCarImg from './images/raceCarImg.png'
 import cc from './images/CC.png'
 
+
 const Projects = (props) => {
     const data = [
         {
@@ -67,6 +68,13 @@ const Projects = (props) => {
             imgUrl: cc,
             link:'https://clothingproject.netlify.app/',
             description:'A E-commerce Clothing Website which includes Cart , add Items, signup and signout etc. Resources used - HTML/CSS/ReactJs'
+        },
+        {
+            id: 9,
+            title: 'Sticky Notes',
+            imgUrl: cc,
+            link:'https://bran-notes.netlify.app/',
+            description:'A Simple Notes taking program where we can add , delete and refresh Notes. Resources used - HTML/CSS/JS'
         },
     ]
     return (
